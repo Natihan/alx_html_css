@@ -158,3 +158,60 @@ h3 {
 p {
     margin: 5px 0 0; /* Margin above p, no margin below */
 }
+
+.popular-tutorials {
+    padding: 20px; /* Optional: Add some padding */
+}
+
+.tutorials-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.tutorial {
+    flex: 1; /* Allow items to grow */
+    max-width: 24%; /* Limit width of each tutorial */
+    margin: 10px; /* Add margin for spacing */
+    text-align: center; /* Center text */
+}
+
+.tutorial img {
+    width: 25%; /* Make images responsive */
+    height: 25%;
+}
+
+.ratings {
+    display: flex; /* Use flexbox for star layout */
+    justify-content: center; /* Center stars */
+}
+
+.star {
+    width: 20px; /* Size of each star */
+    height: 20px; /* Size of each star */
+    background-color: gray; /* Default star color */
+    mask: url('path/to/star-icon.svg') no-repeat center; /* Use a star SVG icon */
+    -webkit-mask: url('path/to/star-icon.svg') no-repeat center; /* For Safari */
+}
+
+.star.blue {
+    background-color: blue; /* Blue color for filled stars */
+}
+
+.image-hr-container {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Vertically center the items */
+}
+
+.image {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between image and hr */
+}
+
+.divider {
+    flex-grow: 1; /* Allow the hr to take the remaining space */
+    border: none; /* Remove default border */
+    border-top: 1px solid black; /* Customize the line style */
+    margin: 0; /* Remove default margin */
+}
