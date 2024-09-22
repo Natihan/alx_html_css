@@ -103,7 +103,6 @@ h1 {
 .person {
     display: inline-block;
     text-align: center; /* Center the text under each image */
-    font-family: sans-serif;
     margin: 0px; /* Add some margin for spacing */
     padding-top: 50px;
     padding-bottom: 50px;
@@ -114,4 +113,48 @@ h1 {
     height: 150px; /* Set a specific height */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px; /* Optional padding */
+    background-color: #C271FF; /* Light gray background */
+    padding-top: 100px; /* Add padding */
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.quote-container {
+    display: flex; /* Allows items to be side by side */
+    align-items: center; /* Centers items vertically within the container */
+}
+
+.quote-image {
+    border-radius: 50%; /* Makes the image circular */
+    width: 150px; /* Set desired width */
+    height: 150px; /* Set desired height */
+    object-fit: cover; /* Ensures the image covers the circle */
+    margin-right: 40px; /* Space between image and quote */
+}
+
+.quote-text {
+    text-align: left; /* Aligns text to the left */
+    font-family: sans-serif;
+    color: #f0f0f0;
+}
+
+blockquote {
+    margin: 0; /* Removes default margin */
+}
+
+h3 {
+    margin: 10px 0 0; /* Margin above h3, no margin below */
+}
+
+p {
+    margin: 5px 0 0; /* Margin above p, no margin below */
 }
