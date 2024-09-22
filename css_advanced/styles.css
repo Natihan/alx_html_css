@@ -1,1 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.hero {
+    background-image: url(Object.png); /* Update with your image path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    color: white; /* Ensure text is visible */
+}
+
+header {
+    padding: 50px; /* Adjust padding as needed */
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Align items to the edges */
+    align-items: center; /* Center vertically */
+}
+
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Display items in a row */
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Change text color */
+    font-weight: bold; /* Make text bold */
+}
+
+main > section:first-of-type {
+    padding: 40px; /* Adjust padding as needed */
+}
+
+h1 {
+    font-size: 7em; /* Adjust the size as needed */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add some margin for spacing */
+    color: #fff; /* Change the text color if needed */
+    padding-top: 40px;
+}
+
+.smiles-container {
+    text-align: center; /* Center the text */
+    margin: 10px 0; /* Add some margin for spacing */
+    padding-bottom: 20px;
+}
+
+.smiles-container span {
+    font-size: 1.2em; /* Adjust the size as needed for smaller text */
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block; /* Allow margin between spans */
+    margin: 0 20px; /* Add horizontal spacing between spans */
+    color: #fff; /* Change color if needed */
+}
+
+.register-button {
+    display: block; /* Make the button a block element */
+    margin: 20px auto; /* Center it with auto margins */
+    padding: 10px 20px; /* Button padding */
+    font-size: 18px; /* Button text size */
+    color: #fff; /* Text color */
+    background-color: #C271FF; /* Background color */
+    border: none; /* No border */
+    border-radius: 25px; /* Curved corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth color change */
+    outline: none; /* Remove outline */
+}
+
+.register-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+.learn-heading {
+    text-align: center; /* Center the text */
+    margin-top: 130px; /* Add space at the top */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.pros {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space out the items evenly */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+.person {
+    display: inline-block;
+    text-align: center; /* Center the text under each image */
+    margin: 0px; /* Add some margin for spacing */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.circular-img {
+    width: 150px; /* Set a specific width */
+    height: 150px; /* Set a specific height */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
