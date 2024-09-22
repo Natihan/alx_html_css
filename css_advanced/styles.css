@@ -103,6 +103,7 @@ h1 {
 .person {
     display: inline-block;
     text-align: center; /* Center the text under each image */
+    font-family: sans-serif;
     margin: 0px; /* Add some margin for spacing */
     padding-top: 50px;
     padding-bottom: 50px;
